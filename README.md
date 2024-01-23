@@ -44,7 +44,7 @@ Make sure you have Python and TensorFlow installed on your machine. You can inst
 The model is trained for 10 epochs on the CIFAR-10 training set. You can experiment with different architectures, hyperparameters, and datasets to further improve its performance.
 
 ## Results
-After training, the model achieved a test accuracy of [INSERT YOUR ACCURACY HERE] on the CIFAR-10 test set.
+After training, the model achieved a test accuracy of 0.6995999813079834 on the CIFAR-10 test set.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
