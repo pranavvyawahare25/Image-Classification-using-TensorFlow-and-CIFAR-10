@@ -1,28 +1,54 @@
-# Image-Classification-using-TensorFlow-and-CIFAR-10
-🖼️ TensorFlow-based Image Classification on CIFAR-10 dataset. Train a Convolutional Neural Network (CNN) for categorizing images. Easy-to-use with customization options. Explore and contribute!
+# Image Classification with TensorFlow and CIFAR-10
 
-# Image Classification with CIFAR-10 Dataset
+This repository contains a simple image classification project using TensorFlow and the CIFAR-10 dataset. The code demonstrates how to build a Convolutional Neural Network (CNN) to classify images into different categories.
 
-![CIFAR-10 Image Classification](cifar10_image.png)
+## Dataset
 
-This repository contains a simple image classification model built with TensorFlow and trained on the CIFAR-10 dataset. The model classifies images into 10 different categories, including objects like airplanes, automobiles, birds, cats, and more.
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes. It is widely used for image classification tasks.
+
+## Prerequisites
+
+- Python 3.x
+- TensorFlow (install via `pip install tensorflow`)
 
 ## Getting Started
 
-### Prerequisites
+- Clone the repository:
+
+   ```bash
+   git clone https://github.com/pranavvyawahare25/Image-Classification-using-TensorFlow-and-CIFAR-10
+
+
+## Navigate to the project directory:
+
+cd Image-Classification-using-TensorFlow-and-CIFAR-10
+
+## Run the code:
+
+python Image_Classification.py
 
 Make sure you have Python and TensorFlow installed on your machine. You can install TensorFlow using:
+- pip install tensorflow
+- Installation
+- Clone the repository: git clone https://github.com/pranavvyawahare25/Image-Classification-using-TensorFlow-and-CIFAR-10
+- cd Image-Classification-using-TensorFlow-and-CIFAR-10
 
+## Model Architecture
+- The image classification model uses a Convolutional Neural Network (CNN) with the following architecture:
+- Input Layer: Conv2D with ReLU activation
+- Hidden Layers: MaxPooling2D and Conv2D with ReLU activation
+- Fully Connected Layers: Flatten, Dense with ReLU activation
+- Output Layer: Dense with Softmax activation
 
-pip install tensorflow
-Installation
-Clone the repository: git clone https://github.com/your-username/image-classification-cifar10.git
-cd image-classification-cifar10
+## Training
+The model is trained for 10 epochs on the CIFAR-10 training set. You can experiment with different architectures, hyperparameters, and datasets to further improve its performance.
 
-Model Architecture
-The image classification model uses a Convolutional Neural Network (CNN) with the following architecture:
+## Results
+After training, the model achieved a test accuracy of [INSERT YOUR ACCURACY HERE] on the CIFAR-10 test set.
 
-Input Layer: Conv2D with ReLU activation
-Hidden Layers: MaxPooling2D and Conv2D with ReLU activation
-Fully Connected Layers: Flatten, Dense with ReLU activation
-Output Layer: Dense with Softmax activation
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
